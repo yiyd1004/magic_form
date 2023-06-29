@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    font-size: 24px;
+    color: white;
+}
+
+a {
+    margin-right: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+p {
+  margin: 0 0 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+form {
+    display: block;
+    margin: 0 20% 0;
+    padding: 2% 0 3%;
+}
+
+span {
+    line-height: 2em;
+}
+
+input {
+    width: 100%;
+    line-height: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 18px;
+}
+
+.nav-container, .submit-history-container {
+    margin: 0 20% 0;
+    padding: 1em 0 1em;
+}
+
+.submit-history-container {
+    margin-top: 2em;
+}
+
+.input-container {
+    display: block;
+    margin-bottom: 2.2%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.submit-history-card {
+    margin-bottom: 2em;
+    padding: 2.5em;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px 7px rgba(231, 231, 231, 1);
+    font-size: 18px;
+}
+
+.card-value {
+    display: block;
+    font-weight: normal;
+}
+
+.submit-button, .delete-button {
+    font-size: 20px;
+    margin: 3.5% auto 0;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+}
+
+.submit-button {
+    display: block;
+    width: auto;
+}
+
+.delete-button{
+    display: table;
+    background-color: darkred;
+}
